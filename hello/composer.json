@@ -8,7 +8,9 @@
             "email": "anpengpeng163@163.com"
         }
     ],
-    "require": {},
+    "require": {
+        "yxk/hello": "dev-master"
+    },
     "autoload": {
         "classmap": [
             "database"
