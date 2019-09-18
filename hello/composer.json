@@ -11,12 +11,8 @@
     "require": {
     },
     "autoload": {
-        "classmap": [
-            "database"
-        ],
         "psr-4": {
-            "App\\": "app/",
             "Yxk\\Hello\\": "src/"
         }
-    },
+    }
 }
