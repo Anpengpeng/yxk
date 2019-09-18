@@ -1,6 +1,7 @@
 {
     "name": "yxk/hello",
     "description": "hello world",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -8,8 +9,8 @@
             "email": "anpengpeng163@163.com"
         }
     ],
-    "require": {
-    },
+    "require": {},
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Yxk\\Hello\\": "src/"
