@@ -9,7 +9,6 @@
         }
     ],
     "require": {
-        "yxk/hello": "dev-master"
     },
     "autoload": {
         "classmap": [
@@ -17,12 +16,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Yxk\\Hello\\": "packages/yxk/hello/src/"
+            "Yxk\\Hello\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Yxk\\Hello\\": "packages/yxk/hello/test/"
-        }
-    }
 }
