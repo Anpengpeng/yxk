@@ -4,8 +4,10 @@
 ## 安装
     composer require yxk/hello
     
-##自动加载类
-    composer dump-autoload
-    
 ##生成配置文件
      php artisan vendor:publish --provider="Yxk\Hello\HelloServiceProvider" 
+     
+ ##调用方式
+    $ret = Hello::sayHello();
+    return $ret;
+    //输出Hello China即调用成功
